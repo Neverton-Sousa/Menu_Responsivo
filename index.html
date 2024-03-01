@@ -15,10 +15,10 @@
         
         <button class="hamburger"></button>
         <ul class="links">
-          <li><a href="sobre">Sobre</a></li>
-          <li><a href="#">Bibliografia</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="/templates/resumo.html">RESUMO</a></li>
+          <li><a href="#">CRIAR ORÇAMENTO</a></li>
+          <li><a href="#">ORÇAMENTOS</a></li>
+          <li><a href="#">OUTROS</a></li>
         </ul>
         <a href="#" class="action_btn">Entrar</a>
         <div class="toggle_btn">
@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="dropdown_menu">
-        <li><a href="sobre">Sobre</a></li>
+        <li><a href="/templates/resumo.html">Sobre</a></li>
         <li><a href="#">Bibliografia</a></li>
         <li><a href="#">Projetos</a></li>
         <li><a href="#">Contato</a></li>
@@ -51,7 +51,7 @@
         </form>
 
         <div class="inputBox">
-          <input type="number" required="required"/>
+          <input type="number" id="quant" required="required"/>
           <span>Quantidade</span>
         </div> 
         <div class="inputBox">
@@ -60,19 +60,20 @@
           <span>Tipo</span>
         </div>
         <button class="submit">ADICIONAR</button>
+        <button class="submit">GERAR PDF</button>
 
       </div>
         <div class="container">
           <div class="tbl_container">
-            <h2 class="titulo">Orçamento</h2>
+            <h2 class="titulo">ORÇAMENTO ELÉTRICO</h2>
             <table class="tbl">
               <thead>
                 <tr>
-                  <th>Item</th>
-                  <th>Nome</th>
-                  <th>Quantidade</th>
-                  <th>Tipo</th>
-                  <th>ação</th>
+                  <th>ITEM</th>
+                  <th>NOME</th>
+                  <th>QUANTIDADE</th>
+                  <th>TIPO</th>
+                  <!-- <th>ação</th> -->
                 </tr>
               </thead>
               <tbody>
